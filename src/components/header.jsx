@@ -12,9 +12,6 @@ const Header = observer(({ getSiteData }) => {
   const { status, cache } = useStores();
   const [lastClickTime, setLastClickTime] = useState(0);
 
-  // 加载配置
-  const siteName = import.meta.env.VITE_SITE_NAME;
-
   // 状态文本
   const statusNames = {
     loading: "站点状态加载中",
