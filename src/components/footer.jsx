@@ -19,9 +19,9 @@ const Footer = () => {
           &nbsp;接口&nbsp;|&nbsp;检测频率 5 分钟
         </p>
         <p>
-          Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
+          Copyright&nbsp;&copy;&nbsp;2024&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.imsyy.top/" text="無名" />
+          <CustomLink to="https://www.weexy.cn/" text="Zhengweixin" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
