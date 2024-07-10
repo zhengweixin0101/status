@@ -16,7 +16,7 @@ const Footer = () => {
         <p>
           Copyright&nbsp;&copy;&nbsp;2024&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.weexy.cn/" text="Zhengweixin" />
+          <CustomLink to="https://zhengweixin.top/" text="Weixin Zheng" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
